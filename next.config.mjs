@@ -5,6 +5,7 @@ const withMDX = createMDX();
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
+  basePath: '/poster-ica-2025',
   output: 'export',
   images: { unoptimized: true }
 };
