@@ -9,9 +9,11 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
     "fumadocs-core": "15.6.10",
     "fumadocs-mdx": "11.7.5",
     "fumadocs-ui": "15.6.10",
+    "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "posthog-js": "^1.260.1",
     "react": "^19.1.1",
