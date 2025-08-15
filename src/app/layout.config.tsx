@@ -1,4 +1,4 @@
-import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
+import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 
 /**
  * Shared layout configurations
@@ -9,8 +9,9 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  */
 export const baseOptions: BaseLayoutProps = {
   nav: {
-    title: "ICC 2025"
+    title: "ICC 2025",
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
   links: [],
+  githubUrl: "https://github.com/gtitov/poster-ica-2025",
 };
